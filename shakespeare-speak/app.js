@@ -9,6 +9,9 @@ function hancdleClick(){
     .then((res)=>res.json())
     .then((json)=>{
         outputArea.innerText = json.contents.translated;
+    }).catch(err=>{
+        console.error("Error fetching translation, error:"+err);
+        outputArea.innerText = "Error fetching translation"
     });
 }
 
