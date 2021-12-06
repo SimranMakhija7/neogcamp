@@ -19,7 +19,7 @@ body{
 
 .navigation .nav-brand{
     padding-top: 0.2rem;
-    font-size: 1.1rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -74,3 +74,16 @@ button{
     color: whitesmoke;
     text-align: center;
 }
+
+.container{
+    padding: 0rem 1rem;
+}
+/* 
+    Box model: MBPC - Margin, Border, Padding, Content
+    rem: A css unit that works relative to font size.
+*/
+.container-center{
+    max-width: 600px;
+    margin: auto;
+}
+
