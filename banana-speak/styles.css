@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #FBBF24 ;
+    --dark-gray: #9CA3AF;
+    --light-yellow: #FEF3C7    ;
+}
+
+body{
+    /* top right bottom left */
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+}
+.navigation{
+    color: whitesmoke;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+
+.navigation .nav-brand{
+    padding-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light-yellow);
+}
+
+.hero .hero-img{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    /* font-size: 1.2rem; */
+    padding-top: 1rem;
+    color:var(--dark-gray);
+}
+
+.highlight{
+    color: var(--primary-color);
+}
+section{
+    padding: 0.5rem;
+}
+.section-off-white{
+    background-color: var(--light-yellow);
+}
+
+#txtInput{
+    display: block;
+    margin: 0.5rem 0rem;
+}
+
+button{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+#output{
+    width: 400px;
+    height: 100px;
+    border: solid 1px black;
+    margin: 1rem 0rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    color: whitesmoke;
+    text-align: center;
+}
