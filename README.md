@@ -12,4 +12,6 @@ This repository contains my exercises and code from neogcamp level zero
 - Mark 9: [GoodTunes](https://hj5h3.csb.app/)
 - Mark10: [Cash Register](https://simranmakhija7.github.io/cash-register-neog/)
 - Mark11: [Is Your Birthday Lucky?](https://simranmakhija7.github.io/is-your-birthday-lucky/)
+- Mark13: [Palindrome Birthday](https://simranmakhija7.github.io/palindrome-birthdays/)
 - Mark14: [Profit or Loss](https://simranmakhija7.github.io/profit-or-loss/)
+
